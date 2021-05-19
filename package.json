@@ -1,0 +1,21 @@
+{
+  "name": "cnrl",
+  "version": "1.0.0",
+  "description": "Network Team Inventory",
+  "main": "index.js",
+  "dependencies": {
+    "dom-form-serializer": "^1.0.7",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "nodemon": "^1.19.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

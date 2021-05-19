@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <script src="client.js" type="text/javascript" async></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+
+    <title>CNRL Inventory</title>
+</head>
+<body>
+    <div id="div1" class="divClass">
+
+        <h1 id="titleHead"> LILREX INVENTORY </h1>
+        <button id="checkAll" class="InvButtons">Check All Items In Inventory</button>
+        <button id="AddItem" class="InvButtons">Add Item to Inventory</button>
+        <button id="FindItem" class="InvButtons">Find Item In Inventory</button>
+        <button id="DeleteItem" class="InvButtons">Delete From Inventory</button>
+   
+    </div>
+    <img id="Logo" src="SquareGraphic.png" alt="LOGO"></img>
+    <!--     <img id="CNRLLogo" src="cnrl_logo.png" alt="CNRL LOGO" height="250" width="450"></img> -->
+    
+    <div id="tableView">
+        <table id="InvTable">
+            <th>Item</th>
+            <th>Description</th>
+            <th>Cost</th>
+            <th>Current Stock</th>
+            <th>Target Stock</th>
+            <th>Reorder Amount</th>
+            <th>Shelf</th>
+            <tbody id="tbodyID">
+
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <div id="formDivID">
+
+        <form id="FormID" class="FormClass" method='POST' action="#">
+               <input class="inputClass" type="text" name='name' placeholder="Name" value=""/> <br/><br/>
+               <input class="inputClass" type="text" name='model' placeholder="Model Number" value=""/> <br/><br/>
+               <input class="inputClass" type="text" name='cost' placeholder="Cost (Don't put $ sign)" value=""/> <br/><br/>
+               <input class="inputClass" type="text" name='description' placeholder="Description" value=""/> <br/><br/>
+               <input class="inputClass" type="text" name='quantity' placeholder="Current Stock Amount" value=""/> <br/><br/>
+               <input class="inputClass" type="text" name='target' placeholder="Target Stock" value=""/> <br/><br/>
+               <input class="inputClass" type="text" name='reorder' placeholder="Reorder Amount" value=""/> <br/> <br/>
+               <input class="inputClass" type="text" name='shelf' placeholder="Shelf" value=""/> <br/> <br/>
+
+
+                <input id='submitbtn' type="submit" value="Submit"/> 
+        </form>
+       
+    </div>
+
+    <div id="FindformDivID">
+
+        <form id="findFormID" class="FormClass" method='GET' action="#">
+               <input class="inputClass" type="text" name='model' placeholder="Model Number" value=""/> <br/><br/>
+               <input type="submit" value="Submit"/> 
+        </form>
+       
+    </div>
+
+</body>
+<footer id="footerTag"> This page was created by Arif Mitha - Network Analyst Intern 2019</footer>
+</html>

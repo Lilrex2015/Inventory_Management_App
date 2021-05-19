@@ -1,0 +1,213 @@
+
+h1
+{
+    text-align: center;
+    background-color: rgb(70, 253, 46);
+    color: rgb(238, 129, 28);
+    text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+
+#footerTag
+{
+    position: relative;
+    text-align: center;
+    bottom: -50vh;  
+    left: 35px;
+
+  
+}
+
+@media(min-width: 500px)
+{
+
+
+    .InvButtons
+    {
+        position: relative;
+        background-color: rgb(255, 110, 43);
+        width: 35%;
+        margin-top: 50px;
+        margin-left: 5px;
+        padding: 0% 2% 0% 2%; /* top right bottom left */
+        font-size: 16px;
+        float: left;
+       
+    }
+
+
+
+    img {
+    position: absolute;
+    max-width: 25%;
+    height: 10vh;
+    top: 13%;
+    left: 75%; 
+  }
+
+  table, th, td, tbody
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-right: 35vw;
+    margin-top: 50%;
+    font-size: 10px;
+    table-layout: fixed;
+    width: 100%;
+    padding: 5px;  
+    visibility: visible;
+    
+}
+
+
+
+#FormID
+{
+    position: relative;
+    width: 50%;
+    left: 45%;
+    top: 10vh;
+    visibility: hidden;
+}
+
+#submitbtn{
+
+   
+    margin-left: 25%;
+}
+/*
+#findFormID
+{
+    border: 5px solid black;
+    width: 15%;
+    position: relative;
+    left: 45%;
+    bottom: 250px;
+    visibility: hidden;
+}
+*/
+
+}
+
+/*
+
+@media(min-width:1201px)
+{
+
+
+table, th, td, tbody
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 25px;
+    margin-left: 20%;
+    margin-top: 5%;
+    font-size: 25px;  
+    visibility: visible;
+    
+}
+
+.InvButtons
+{
+    width: 10%;
+    background-color: rgb(243, 12, 12);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+}
+
+.InvButtons:hover{
+    background-color: rgb(45, 255, 245);
+    transition-duration: 1s;
+    border-radius: 300px;
+    font-size: 23px;
+    color: black;
+}
+
+#Logo
+{
+    position: absolute;
+    left: 80%;
+    Bottom: 70%;
+}
+
+
+
+
+.inputClass
+{
+    background-color: rgb(34, 255, 107);
+    color: rgb(0, 0, 0);
+}
+
+#FormID
+{
+    border: 5px solid black;
+    width: 15%;
+    position: relative;
+    left: 45%;
+    top: 70px;
+    visibility: hidden;
+}
+
+#findFormID
+{
+    border: 5px solid black;
+    width: 15%;
+    position: relative;
+    left: 45%;
+    bottom: 250px;
+    visibility: hidden;
+}
+
+.inputClass
+{
+    width: 95%;
+}
+
+}
+
+
+@media(max-width: 1200px)
+{
+    .InvButtons
+{
+    width: 10%;
+    background-color: rgba(30, 216, 201, 0.712);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    color: black;
+}
+.FormClass
+{
+    border: 5px solid black;
+    width: 25%;
+    position: relative;
+    left: 50%;
+    visibility: hidden;
+    
+}
+
+#Logo
+{
+    position: absolute;
+    left: 80%;
+    Bottom: 70%;
+}
+
+
+} 
+
+
+
+
+*/
